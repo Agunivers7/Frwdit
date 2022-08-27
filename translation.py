@@ -27,3 +27,5 @@ More details /help</i>"""
 <b>Lybrary :</b> <code>Pyrogram v1.2.9</code>
 <b>Server :</b> <code>Heroku</code>
 <b>Build :</b><code>V0.1</code>"""
+
+Bot_IMG = 'https://telegra.ph/file/245f4d78494f2477d19f5.jpg'
