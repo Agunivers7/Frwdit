@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Dark Angel
+# (c) Agunivers
 
 import asyncio
 from pyrogram import Client, filters
@@ -63,7 +63,7 @@ async def run(bot, message):
             pass
    # await m.delete()
     buttons = [[
-        InlineKeyboardButton('📜 Support Group', url='https://t.me/DxHelpDesk')
+        InlineKeyboardButton('📜 Support Group', url='https://t.me/Agunivers_backup')
     ]] 
     reply_markup = InlineKeyboardMarkup(buttons)
     await m.edit(
