@@ -1,12 +1,10 @@
 import os
 from config import Config
 
-class Translation(object):
-  Bot_IMG, 
+class Translation(object): 
   START_TXT = """<b>Hai {}!!</b>
-<i>I'm Simple Auto file Forward Bot
-This Bot forward all files to One Public channel to Your Personal channel
-More details /help</i>"""
+<i>I'm Auto file Forward Bot
+Iam only working for<a href='https://t.me/Aguniversmovie'>𝙰𝚐𝚞𝚗𝚒𝚟𝚎𝚛𝚜𝚖𝚘𝚟𝚒𝚎</a>"""
   CAPTION = "`{}`\n\n" + str(Config.CAPTION)
   HELP_TXT = """<b>Follow These Steps!!</b>
 <b>• Currectly fill your Heroku Config vars</b> <code>FROM_CHANNEL</code> and <code>TO_CHANNEL</code> <b>and other Vars</b>
